@@ -36,3 +36,41 @@ nav > img {
   color: #222;
   width: 320px;
 }
+
+.card {
+  padding: 30px;
+  color: #222;
+  font-family: Poppins;
+  font-size: 12px;
+}
+
+.card > * {
+  margin: 0;
+}
+
+.card-img {
+  width: 176px;
+  border-radius: 9px;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+}
+
+.stat > * {
+  margin-right: 2px;
+}
+
+.star {
+  width: 14px;
+}
+
+.stat :last-child {
+  color: #918E9B;
+}
+
+.card > h5 {
+  margin: 8px 0;
+  font-weight: 300;
+}
