@@ -48,6 +48,7 @@ nav > img {
 }
 
 .card-img {
+  height: 235px;
   width: 176px;
   border-radius: 9px;
 }

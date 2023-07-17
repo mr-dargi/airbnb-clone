@@ -2,18 +2,18 @@ import React from "react";
 
 
 export default function Card(props) {
-  console.log(props);
+  // console.log(props);
   return (
     <div className="card">
-      <img src="./images/katie-zaferes.png" className="card-img" />
+      <img src={"./images/" + props.item.coverImg} className="card-img" />
       <div className="stat">
         <img src="./images/star.png" className="star" />
-        <span>5.0</span>
-        <span>(6) . USA</span>
+        <span>{props.item.stats.rating}</span>
+        <span>({props.item.stats.reviewCount}) . USA</span>
       </div>
-      <h5>Life lessons with Katie Zaferes</h5>
+      <h5>{props.item.title}</h5>
       <p>
-        <b>From $136</b> / person
+        <b>From ${props.item.price}</b> / person
       </p>
     </div>
   )
