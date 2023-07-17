@@ -48,10 +48,22 @@ nav > img {
   color: #222;
   font-family: Poppins;
   font-size: 15px;
+  position: relative;
 }
 
 .card > * {
   margin: 0;
+}
+
+.card-badge {
+  position: absolute;
+  background-color: white;
+  width: 61px;
+  height: 15px;
+  font-size: 10px;
+  text-align: center;
+  top: 25px;
+  left: 25px;
 }
 
 .card-img {
@@ -79,4 +91,8 @@ nav > img {
 .card > h5 {
   margin: 8px 0;
   font-weight: 300;
+  height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre;
 }
