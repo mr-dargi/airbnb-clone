@@ -37,5 +37,36 @@ export default [
     },
     location: "Norway",
     openSpots: 3,
-  }
+  },
+  {
+    id: 4,
+    title: "No experience needed ! sculpt a one-of-a-kind bust in paris",
+    description: "Don't let your lack of experience hold you back ! As a professional \
+                  sculptor Alex will guide you every step of the way, making this experience \
+                  accessible to all. With his simple yet effective method, you'll be amazed at \
+                  what you can achieve with just a little guidance and a willingness to explore.",
+    price: 75,
+    coverImg: "sculpt.webp",
+    stats: {
+        rating: 4.98,
+        reviewCount: 553
+    },
+    location: "France",
+    openSpots: 21,
+  },
+  {
+    id: 6,
+    title: "Discover the Treasures of the Louvre with an Art Historian",
+    description: "You have always dreamt of seeing the Louvre but were overwhelmed \
+                  by its size? This tour turns the Louvre into an entertaining, educational, \
+                  and inspiring experience.",
+    price: 65,
+    coverImg: "Louvre.webp",
+    stats: {
+        rating: 4.96,
+        reviewCount: 185
+    },
+    location: "France",
+    openSpots: 5,
+  },
 ]

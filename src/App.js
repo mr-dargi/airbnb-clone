@@ -17,7 +17,10 @@ function App() {
     <div className="App">
       <Nav />
       <Hero />
-      {cards}
+      <div className="card-list">
+        {cards}
+      </div>
+
     </div>
   );
 }
