@@ -21,7 +21,7 @@ The most challenging things was to understand the instruction of props, they way
 
 ### Continued development
 
-I will add this section ...
+I will create meme genrator app based on what user inter in the input.
 
 ### Useful resources
 
